@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #D97706; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #B45309; }
+
+/* Text selection */
+::selection { background: #D97706; color: #fff; }
+
+/* Button press */
+button:active, a:active { transform: scale(0.98); }
+
+/* Hero image marquee */
+@keyframes marquee-x {
+  from { transform: translateX(0) }
+  to   { transform: translateX(-50%) }
+}
+.animate-marquee { animation: marquee-x 50s linear infinite; }
+.animate-marquee-slow { animation: marquee-x 70s linear infinite; }
+
+/* WhatsApp pulse */
+@keyframes wa-ping {
+  0%   { transform: scale(1); opacity: 0.4; }
+  70%  { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+.animate-wa-ping { animation: wa-ping 2s cubic-bezier(0,0,0.2,1) infinite; }
