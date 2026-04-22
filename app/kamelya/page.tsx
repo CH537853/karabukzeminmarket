@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import ContactForm from '@/components/ContactForm'
 import LandingGallery from '@/components/LandingGallery'
+import PhoneCTA from '@/components/PhoneCTA'
 
 export const metadata: Metadata = {
   title: 'Ahşap Kamelya Fiyatları — Karabük',
@@ -65,6 +66,9 @@ export default function KamelyaPage() {
           ))}
         </div>
       </div>
+
+      {/* Phone CTA */}
+      <PhoneCTA />
 
       {/* Main Content */}
       <section className="py-20 bg-white">
