@@ -161,11 +161,11 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 group">
               <Image
-                src="/zmlogo.png"
+                src={solid ? '/zmlogosiyah.png' : '/zmlogobeyaz.png'}
                 alt="Zemin Yapı Market"
                 width={40}
                 height={40}
-                className="rounded-lg shadow-md group-hover:opacity-90 transition-opacity flex-shrink-0"
+                className="group-hover:opacity-80 transition-opacity flex-shrink-0"
               />
               <div className="leading-tight">
                 <span className={`font-bold text-sm sm:text-[15px] transition-colors ${solid ? 'text-gray-900' : 'text-white'}`}>
