@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 
 const urunlerDropdown = [
@@ -159,9 +160,13 @@ export default function Navbar() {
 
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-8 h-8 bg-amber-600 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md group-hover:bg-amber-700 transition-colors">
-                <span className="text-white font-black text-sm">Z</span>
-              </div>
+              <Image
+                src="/zmlogo.png"
+                alt="Zemin Yapı Market"
+                width={40}
+                height={40}
+                className="rounded-lg shadow-md group-hover:opacity-90 transition-opacity flex-shrink-0"
+              />
               <div className="leading-tight">
                 <span className={`font-bold text-sm sm:text-[15px] transition-colors ${solid ? 'text-gray-900' : 'text-white'}`}>
                   Zemin Yapı
