@@ -26,10 +26,16 @@ const stats = [
   { num: '%100', label: 'Müşteri Memnuniyeti' },
 ]
 
-const workshopPhotos = [
-  { src: BASE + '84e227_3ee74e12029248699a57889657fc1560~mv2.jpg', alt: 'Tamamlanan proje örneği' },
-  { src: BASE + '84e227_830730154b1f46de9bc0445bf3b2da09~mv2.jpg', alt: 'Zemin Yapı Market çalışması' },
-  { src: BASE + '84e227_f03c2794572245d380a1a6f68e953375f000.jpg', alt: 'Projelerimizden bir görünüm' },
+const topPhotos = [
+  { src: BASE + '84e227_0c5ee6041f7f4f989355ddb1ca950a87f000.jpg', alt: 'Ahşap ev projesi' },
+  { src: BASE + '84e227_e5d0542c70cf498ba16a0374a1627dd6f000.jpg', alt: 'Modern ahşap ev' },
+  { src: BASE + '84e227_68f11fcb321642f5b113b32972a621e1f000.jpg', alt: 'Ahşap kamelya projesi' },
+  { src: BASE + '84e227_604a9ea502c24f0590e4e0a330474084~mv2.jpg', alt: 'Tamamlanan kamelya' },
+]
+
+const bottomPhotos = [
+  { src: BASE + '84e227_141e29b4f8544f919fee6f7e3e7d6452~mv2.jpg', alt: 'El yapımı bahçe salıncağı' },
+  { src: BASE + '84e227_9a7b5468e9d444149a50e94455760679~mv2.jpg', alt: 'Ahşap orman masası seti' },
 ]
 
 export default function HakkimizdaPage() {
@@ -117,16 +123,35 @@ export default function HakkimizdaPage() {
               </p>
             </div>
           </AnimateOnScroll>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {workshopPhotos.map((photo, i) => (
-              <AnimateOnScroll key={i} animation="zoom-in" delay={i * 100}>
-                <div className="relative h-60 rounded-2xl overflow-hidden group">
+          {/* Üst sıra — 4 fotoğraf */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+            {topPhotos.map((photo, i) => (
+              <AnimateOnScroll key={i} animation="zoom-in" delay={i * 80}>
+                <div className="relative h-52 sm:h-60 rounded-2xl overflow-hidden group">
                   <Image
                     src={photo.src}
                     alt={photo.alt}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                    sizes="(max-width: 640px) 50vw, 25vw"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
+
+          {/* Alt sıra — 2 bahçe mobilyası fotoğrafı */}
+          <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
+            {bottomPhotos.map((photo, i) => (
+              <AnimateOnScroll key={i} animation="zoom-in" delay={i * 100 + 320}>
+                <div className="relative h-52 sm:h-64 rounded-2xl overflow-hidden group">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 50vw, 33vw"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                 </div>
