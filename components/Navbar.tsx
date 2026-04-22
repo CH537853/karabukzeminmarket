@@ -163,8 +163,8 @@ export default function Navbar() {
               <Image
                 src={solid ? '/zmlogosiyah.png' : '/zmlogobeyaz.png'}
                 alt="Zemin Yapı Market"
-                width={40}
-                height={40}
+                width={56}
+                height={56}
                 className="group-hover:opacity-80 transition-opacity flex-shrink-0"
               />
               <div className="leading-tight">
