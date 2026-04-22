@@ -132,7 +132,7 @@ const gallery = [
   { src: B + '84e227_68f11fcb321642f5b113b32972a621e1f000.jpg', alt: 'Ahşap kamelya projesi', label: 'Kamelya', tag: 'Kamelya' },
   { src: B + '84e227_604a9ea502c24f0590e4e0a330474084~mv2.jpg', alt: 'Kamelya üretim süreci', label: 'Kamelya', tag: 'Kamelya' },
   { src: B + '84e227_3ee74e12029248699a57889657fc1560~mv2.jpg', alt: 'Kilitparke döşeme uygulaması', label: 'Kilitparke', tag: 'Zemin Kaplama' },
-  { src: B + '84e227_b1a955b18a6d4ed5b223a6456638933c~mv2.jpg', alt: 'Ahşap bungalov veranda', label: 'Bungalov', tag: 'Ahşap Yapı' },
+  { src: B + '84e227_b1a955b18a6d4ed5b223a6456638933c~mv2.jpg', alt: 'Ahşap ev projesi', label: 'Ahşap Ev', tag: 'Ahşap Yapı' },
   { src: B + '84e227_830730154b1f46de9bc0445bf3b2da09~mv2.jpg', alt: 'Zemin Yapı Market showroom', label: 'Zemin Yapı Market', tag: 'Showroom' },
   { src: B + '84e227_54a88bab701c4245b05254a87ce6789a~mv2.jpg', alt: 'Bungalov iç ahşap detay', label: 'Bungalov', tag: 'Ahşap Yapı' },
   { src: B + '84e227_3224ea52f85a41bea8a4a24de8a24672~mv2.jpg', alt: 'Özel sipariş projesi', label: 'Özel Proje', tag: 'Özel Sipariş' },
