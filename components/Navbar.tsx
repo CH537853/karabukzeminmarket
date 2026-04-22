@@ -168,10 +168,10 @@ export default function Navbar() {
                 className="group-hover:opacity-80 transition-opacity flex-shrink-0"
               />
               <div className="leading-tight">
-                <span className={`font-bold text-sm sm:text-[15px] transition-colors ${solid ? 'text-gray-900' : 'text-white'}`}>
+                <span className={`font-bold text-base sm:text-[17px] transition-colors ${solid ? 'text-gray-900' : 'text-white'}`}>
                   Zemin Yapı
                 </span>
-                <span className="font-bold text-amber-500 text-sm sm:text-[15px]"> Market</span>
+                <span className="font-bold text-amber-500 text-base sm:text-[17px]"> Market</span>
               </div>
             </Link>
 
