@@ -26,15 +26,9 @@ export default function PhoneCTA() {
           </div>
         </div>
 
-        <p className="text-amber-200 text-xs font-bold uppercase tracking-widest mb-2">
-          Ücretsiz Teklif
-        </p>
-        <h2 className="text-white text-2xl sm:text-3xl font-extrabold mb-2 leading-tight">
+        <h2 className="text-white text-2xl sm:text-3xl font-extrabold mb-8 leading-tight">
           Hemen Arayın, Fiyat Öğrenin
         </h2>
-        <p className="text-amber-200/80 text-sm mb-8">
-          Numara&apos;ya dokunun — telefon uygulaması anında açılır.
-        </p>
 
         {/* Phone Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
