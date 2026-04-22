@@ -27,7 +27,7 @@ export default function PhoneCTA() {
         </div>
 
         <h2 className="text-white text-2xl sm:text-3xl font-extrabold mb-8 leading-tight">
-          Hemen Arayın, Fiyat Öğrenin
+          Hemen Arayın!
         </h2>
 
         {/* Phone Buttons */}

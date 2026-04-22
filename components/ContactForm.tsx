@@ -33,7 +33,7 @@ export default function ContactForm({ compact = false }: { compact?: boolean }) 
     setLoading(true)
 
     const msg = encodeURIComponent(
-      `Merhaba, web sitesinden mesaj:\n\n👤 Ad Soyad: ${form.ad}\n📞 Telefon: ${form.telefon}\n🏠 İlgilenilen Ürün: ${form.urun}${form.mesaj ? `\n💬 Mesaj: ${form.mesaj}` : ''}`
+      `Merhaba, bilgi almak istiyorum.\n\n👤 Ad Soyad: ${form.ad}\n📞 Telefon: ${form.telefon}\n🏠 İlgilenilen Ürün: ${form.urun}${form.mesaj ? `\n💬 Mesaj: ${form.mesaj}` : ''}`
     )
 
     window.open(`https://wa.me/905422338381?text=${msg}`, '_blank')
