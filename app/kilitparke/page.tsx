@@ -28,7 +28,7 @@ const features = [
 
 export default function KilitparkePage() {
   return (
-    <div className="pt-16">
+    <div className="pt-20">
       {/* Hero */}
       <div className="relative bg-[#111] py-24 text-center overflow-hidden">
         <Image

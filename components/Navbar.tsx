@@ -156,15 +156,15 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="flex items-center justify-between h-20">
 
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2.5 group">
               <Image
                 src={solid ? '/zmlogosiyah.png' : '/zmlogobeyaz.png'}
                 alt="Zemin Yapı Market"
-                width={56}
-                height={56}
+                width={72}
+                height={72}
                 className="group-hover:opacity-80 transition-opacity flex-shrink-0"
               />
               <div className="leading-tight">

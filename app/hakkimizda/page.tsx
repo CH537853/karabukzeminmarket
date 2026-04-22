@@ -40,7 +40,7 @@ const bottomPhotos = [
 
 export default function HakkimizdaPage() {
   return (
-    <div className="pt-16">
+    <div className="pt-20">
       {/* Header */}
       <div className="bg-[#111] py-20 text-center">
         <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Hakkımızda</h1>
