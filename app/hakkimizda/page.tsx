@@ -35,7 +35,7 @@ const topPhotos = [
 
 const bottomPhotos = [
   { src: BASE + '84e227_141e29b4f8544f919fee6f7e3e7d6452~mv2.jpg', alt: 'El yapımı bahçe salıncağı' },
-  { src: BASE + '84e227_9a7b5468e9d444149a50e94455760679~mv2.jpg', alt: 'Ahşap orman masası seti' },
+  { src: BASE + '84e227_34093bf626bb47acaf7dc9bccc2e78d4~mv2.jpg', alt: 'Ahşap kütük oturma grubu' },
 ]
 
 export default function HakkimizdaPage() {
