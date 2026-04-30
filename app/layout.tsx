@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
-const GA_ID = 'G-XXXXXXXXXX'
+const GA_ID = 'G-XDNZKG5D0L'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
